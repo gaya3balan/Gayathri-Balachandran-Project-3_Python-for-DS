@@ -1,0 +1,155 @@
+body {
+    text-align: center;
+    min-width: 680px;
+    font-family: Sans-serif;
+    /* font-size: 25px; */
+    margin: auto;
+    background-color: powderblue;
+    width: auto;
+    height: auto;
+}
+
+.container {
+    padding: 15% 0%;
+    border: black;
+    border-radius: 5px;
+}
+
+.container-resume {
+    padding: 10px;
+}
+
+#content {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.35), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
+    border: 2px solid black;
+}
+
+#predict_content {
+    margin: 20px;
+    padding: 10px;
+    padding-bottom: 40px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.37), 0 6px 20px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* Inputs fields css property */
+input {
+    width: 30%;
+    height: 30px;
+    margin: 18px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Buttons css property */
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(18, 17, 17);
+    color: white;
+    font-size: 12px;
+    width: 91px;
+    border-radius: 5px;
+}
+
+#login {
+    width: 14%;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color:grey;
+}
+
+.signup {
+    width: 30%;
+    border-radius: 13px;
+    font-size: 15px;
+    background-color: darkcyan;
+}
+.signup:hover {
+    text-decoration: underline;
+}
+
+.logout {
+    font-size: 20px;
+    font-weight: bold;
+    width: 30%;
+}
+
+.notification {
+    background-color: darkviolet;
+    color: whitesmoke;
+    width: 90%;
+    padding: 16px;
+    margin: auto;
+    border-radius:4px;
+}
+.alert.success {
+  background-color: green;
+}
+.alert.error {
+  background-color: darkviolet;
+}
+/* Header css property */
+header {
+    font-size: 1.3em;
+    min-height: 100px;
+    max-height: 120px;
+}
+header h1 {
+    margin: 0%;
+    padding: 2% 5%;
+}
+
+/* Prediction text css property */
+#predict h3 {
+    font-weight: bold;
+    font-size: 25px;
+    color: #ff0537;
+}
+
+/* Input fields css property */
+#predict_content input {
+    border: none;
+    border-bottom: 2px solid rgb(181, 180, 180);
+    padding: 12px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    width: 45%;
+}
+select {
+    border: none;
+    margin-top: 6px;
+    padding: 15px;
+    width: 51%;
+}
+select:active {
+    border: 1px solid black
+}
+
+table {
+    width: 60%;
+    margin: 0px auto;
+}
+
+/* Submit button css property */
+p #submit {
+    background-color:darkcyan;
+    color: white;
+    width: 12%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    border: 2px solid black;
+}
+p #submit:hover {
+    box-shadow: 2px 2px 1px #888888;
+}
+
